@@ -1,0 +1,117 @@
+a{
+    color: white;
+}
+body{
+    background-color: #000000 !important ;
+    display: flex !important;
+
+}
+.card{
+    background-color: #000000 !important ;
+    color: white;
+    border-color: #45C4B0;
+}
+.botao{
+    background-color: #4f6651 !important;
+    border-radius: 10px !important;
+}
+.linha{
+    background-color:#000000 !important;
+    border-color: #45C4B0;
+   
+    
+}
+h1{
+    color:  white;
+    text-align: center;
+    animation: neon 1.5s infinite;
+    text-decoration: none !important;
+    
+}
+@keyframes neon{
+    0%, 39%, 41%, 59%, 61%, 100% {
+        text-shadow: white 0 0 12px,
+        #45C4B0 0 0 24px,
+        #45C4B0 0 0 36px;
+    }
+
+    40%, 60% {
+        text-shadow: none;
+        text-decoration: none !important;
+    }
+}
+h5{
+    color: #45C4B0;
+    
+    
+}
+.usu{
+    background-color: #000000;
+}
+.pass{
+    background-color: #DEFF00;
+}
+.separar{
+    background-color: #000000;
+    border-color: #45C4B0;
+    
+}
+h3{
+    color: #45C4B0;
+    text-align: justify;
+    text-align: center;
+    animation: neon 3s infinite;
+    text-decoration: none !important;
+}
+h6{
+    color: #1fabca;
+    animation: neon 1.2s infinite;
+    text-decoration: none !important;
+    
+}
+.compra{
+    background-color: #45C4B0 !important;
+}
+p{
+    color: white;
+    text-align: justify;
+}
+.valor{
+    color: #45C4B0;
+}
+
+.botao-number{
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    background-color: #a5d8d0;
+    border-color: #45C4B0;
+}
+.botao-adicionar{
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #45C4B0;
+    margin-left: 50%; 
+}
+.titulo{
+   
+    padding: 10px;
+}
+.filme{
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.img{
+    overflow: hidden;
+}
+
+
+
+
+

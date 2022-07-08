@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="glide.theme.min.css">
+    <link rel="stylesheet" href="glide.core.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="login.js"></script>
+</head>
+<body onload="logado();">
+  <div class="container-fluid">
+      <div class="row-12 form-control p-3 linha back" >
+        <h1>Iudhynyx</h1>
+        <h5 id="counterarea"></h5>
+        <h5>bem vindo:</h5>
+        
+        <h6 id="user"></h6>
+        <h5 style="text-align: right;"><a href="fale-conosco.html">fale-conosco</a></h5>
+        <h5 style="text-align: right;"><a href="carrinho.html">carrinho</a></h5>
+        <h5 style="text-align: right;"><a href="cep.html">cep</a></h5>
+
+
+      </div>
+      <div class="row mt-4"> 
+          <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide"><img src="fast6.jpg" alt=""></li>
+                <li class="glide__slide"><img src="spider2.jpg" alt=""></li>
+                <li class="glide__slide"><img src="the batman.jpg" alt=""></li>
+                <li class="glide__slide"><img src="o farol.jpg" alt=""></li>
+                <li class="glide__slide"><img src="homem formiga.jpg" alt=""></li>
+                <li class="glide__slide"><img src="ilha do medo.jpg" alt=""></li>
+                <li class="glide__slide"><img src="velo.jpg" alt=""></li>
+                <li class="glide__slide"><img src="cidade de deus.jpg" alt=""></li>
+                <li class="glide__slide"><img src="valoz.jpg" alt=""></li>
+                <li class="glide__slide"><img src="fast72.jpg" alt=""></li>
+                <li class="glide__slide"><img src="fast9.jpg" alt=""></li>
+                <li class="glide__slide"><img src="spider 1.jpg" alt=""></li>
+                <li class="glide__slide"><img src="fast2.jpg" alt=""></li>
+                <li class="glide__slide"><img src="spider 3.jpg" alt=""></li>
+                <li class="glide__slide"><img src="fast8.jpg" alt=""></li>
+              </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+              <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+              <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+            </div>
+          </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+        <script>
+          const config = {
+            type: "carousel",
+            perView: 5,
+            breakpoints: {
+             900: {
+            perView: 2
+          }
+          
+        },
+        autoplay: 1400,
+          };
+          new Glide(".glide", config).mount();
+        </script>
+
+      </div>
+
+     <div class="row-12 form-control p-3 mb-3 separar">
+       <h3>Filmes para você</h3>
+     </div>
+     
+      <div class="row">
+          <div class="col-sm col-md justify-content-around p-2">
+              <div class="card tamanho" style="width: 100%; height: 100%;">
+                  <a href="filme1.html"><img src="clube da luta.jpg" class="card-img-top" alt="..."></a>
+                  <div class="card-body" style="width: 100%; height: 100%;">
+                    <h5 class="card-title">Clube da Luta</h5>
+                    <p class="card-text">Um homem deprimido que sofre de insônia conhece um estranho ee...</p>
+                   
+                    <!-- <input type="number" class="botao" style="width:50px"> -->
+                  </div>
+                </div>
+                </div>
+                <div class="col-sm col-md justify-content-around p-2">
+                  <div class="card tamanho" style="width: 100%; height: 100%;">
+                      <a href="filme2.html"><img src="cidade de deus.jpg" class="card-img-top" alt="..."></a>
+                      <div class="card-body" style="width: 100%; height: 100%;">
+                        <h5 class="card-title">Cidade de Deus</h5>
+                        <p class="card-text">Buscapé é um jovem pobre, negro e sensível, que cresce na fa...</p>
+                        
+                        <!-- <input type="number" class="botao"  style="width:50px"> -->
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm col-md justify-content-around p-2">
+                  <div class="card tamanho" style="width: 100%; height: 100%;">
+                      <a href="filme3.html"><img src="american2.jpg" class="card-img-top" alt="..."></a>
+                      <div class="card-body" style="width: 100%; height: 100%;">
+                        <h5 class="card-title">American Psycho</h5>
+                        <p class="card-text">Patrick Bateman tem uma segunda vida como um horrível que cresce na fa...</p>
+                       
+                         <!-- <input type="number" class="botao" style="width:50px"> -->
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm col-md justify-content-around p-2">
+                  <div class="card tamanho" style="width: 100%; height: 100%;">
+                      <a href="filme4.html"><img src="ilha do medo.jpg" class="card-img-top" alt="..."></a>
+                      <div class="card-body" style="width: 100%; height: 100%;">
+                        <h5 class="card-title">Ilha do Medo</h5>
+                        <p class="card-text">Na década de 50, a fuga de uma assassina leva o detetive Teddy da...</p>
+                      
+                         <!-- <input type="number" class="botao" style="width:50px"> -->
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm col-md justify-content-around p-2">
+                  <div class="card tamanho" style="width: 100%; height: 100%;">
+                      <a href="filme5.html"><img src="o farol.jpg" class="card-img-top" alt="..."></a>
+                      <div class="card-body" style="width: 100%; height: 100%;">
+                        <h5 class="card-title">O Farol</h5>
+                        <p class="card-text">No final do século 19, um novo zelador chega a uma remota ilha na Nova ...</p>
+                       
+                         <!-- <input type="number" class="botao" style="width:50px"> -->
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm col-md justify-content-around p-2">
+                  <div class="card tamanho" style="width: 100%; height: 100%;">
+                      <a href="filme6.html"><img src="homem formiga.jpg" class="card-img-top" alt="..."></a>
+                      <div class="card-body" style="width: 100%; height: 100%;">
+                        <h5 class="card-title">Homem-Formiga</h5>
+                        <p class="card-text">Dr. Hank Pym transforma um talentoso ladrão no herói...</p>
+                       
+                         <!-- <input type="number" class="botao" style="width:50px"> -->
+                      </div>
+                    </div>
+                </div>
+                
+                <div class="row-12 form-control p-3 separar"></div>
+              
+          </div>
+          <div class="row">
+              <div class="col-sm col-md justify-content-around p-2 ">
+                  <div class="card tamanho" style="width: 100%; height: 100%;">
+                      <a href="filme7.html"><img src="the batman.jpg" class="card-img-top" alt="..."></a>
+                      <div class="card-body" style="width: 100%; height: 100%;">
+                        <h5 class="card-title">The Batman</h5>
+                        <p class="card-text">Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra nas ...</p>
+                        
+                        <!-- <input type="number" class="botao" style="width:50px"> -->
+                      </div>
+                    </div>
+                    </div>
+                    <div class="col-sm col-md justify-content-around p-2 ">
+                      <div class="card tamanho" style="width: 100%; height: 100%;">
+                          <a href="filme8.html"><img src="velo.jpg" class="card-img-top" alt="..."></a>
+                          <div class="card-body" style="width: 100%; height: 100%;">
+                            <h5 class="card-title">Velozes e Furiosos</h5>
+                            <p class="card-text">O corpulento policial Luke Hobbs se junta ao fora da lei Deckard Shaw...</p>
+                           
+                            <!-- <input type="number" class="botao" style="width:50px"> -->
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm col-md justify-content-around p-2 ">
+                      <div class="card tamanho" style="width: 100%; height: 100%;">
+                          <a href="filme9.html"><img src="valoz.jpg" class="card-img-top" alt="..."></a>
+                          <div class="card-body" style="width: 100%; height: 100%;">
+                            <h5 class="card-title">Velozes e furiosos 1</h5>
+                            <p class="card-text">Brian O'Conner é um policial que se infiltra no submundo dos rachas de rua...</p>
+                          
+                             <!-- <input type="number" class="botao" style="width:50px"> -->
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm col-md justify-content-around p-2 ">
+                      <div class="card tamanho" style="width: 100%; height: 100%;">
+                          <a href="filme10.html"><img src="tokioi.jpg" class="card-img-top" alt="..."></a>
+                          <div class="card-body" style="width: 100%; height: 100%;">
+                            <h5 class="card-title">Velozes e Furiosos Tokio</h5>
+                            <p class="card-text">Sean Boswell é um piloto de rua que desafia seu rival e bate o carro no fim...</p>
+                           
+                             <!-- <input type="number" class="botao" style="width:50px"> -->
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm col-md justify-content-around p-2 ">
+                      <div class="card tamanho" style="width: 100%; height: 100%;">
+                          <a href="filme11.html"><img src="fast6.jpg" class="card-img-top" alt="..."></a>
+                          <div class="card-body" style="width: 100%; height: 100%;">
+                            <h5 class="card-title">Velozes e Furiosos 6</h5>
+                            <p class="card-text">Desde que o golpe de Dom e Brian no Rio de Janeiro deixou o grupo com 100...</p>
+                           
+                             <!-- <input type="number" class="botao" style="width:50px"> -->
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm col-md justify-content-around p-2 ">
+                      <div class="card tamanho" style="width: 100%; height: 100%;">
+                          <a href="filme12.html"><img src="fast9.jpg" class="card-img-top" alt="..."></a>
+                          <div class="card-body" style="width: 100%; height: 100%;">
+                            <h5 class="card-title">Velozes e Furiosos 9</h5>
+                            <p class="card-text">Dominic Toretto e Letty vivem uma vida pacata ao lado do filho  Mas eles logo...</p>
+                           
+                             <!-- <input type="number" class="botao" style="width:50px"> -->
+                          </div>
+                        </div>
+                    </div>
+          </div>
+
+          <div class="row-12 form-control p-3 separar"></div>
+
+
+          <div class="row">
+              <div class="col-sm col-md justify-content-around p-2">
+                  <div class="card tamanho" style="width: 100%; height: 100%;">
+                      <a href="filme13.html"><img src="fast2.jpg" class="card-img-top" alt="..."></a>
+                      <div class="card-body" style="width: 100%; height: 100%;">
+                        <h5 class="card-title">Velozes e Furiosos 2</h5>
+                        <p class="card-text">O ex-policial Brian O'Conner se muda de Los Angeles para Miami para ...</p>
+                       
+                        <!-- <input type="number" class="botao" style="width:50px"> -->
+                      </div>
+                    </div>
+                    </div>
+                    <div class="col-sm col-md justify-content-around p-2">
+                      <div class="card tamanho" style="width: 100%; height: 100%;">
+                          <a href="filme14.html"><img src="fast72.jpg" class="card-img-top" alt="..."></a>
+                          <div class="card-body" style="width: 100%; height: 100%;">
+                            <h5 class="card-title">Velozes e Furiosos 7</h5>
+                            <p class="card-text">Após os acontecimentos em Londres, Dom, Brian, Letty e o resto da ...</p>
+                            
+                            <!-- <input type="number" class="botao" style="width:50px"> -->
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm col-md justify-content-around p-2">
+                      <div class="card tamanho" style="width: 100%; height: 100%;">
+                          <a href="filme15.html"><img src="fast8.jpg" class="card-img-top" alt="..."></a>
+                          <div class="card-body" style="width: 100%; height: 100%;">
+                            <h5 class="card-title">Velozes e Furiosos 8</h5>
+                            <p class="card-text">Depois da aposentadoria de Brian e Mia, Dom e Letty aproveitam...</p>
+                           
+                             <!-- <input type="number" class="botao" style="width:50px"> -->
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm col-md justify-content-around p-2">
+                      <div class="card tamanho" style="width: 100%; height: 100%;">
+                          <a href="filme16.html"><img src="spider 1.jpg" class="card-img-top" alt="..."></a>
+                          <div class="card-body" style="width: 100%; height: 100%;">
+                            <h5 class="card-title">Spider Man 1</h5>
+                            <p class="card-text">Depois de ser picado por uma aranha geneticamente modificada em uma demonstração...</p>
+                           
+                             <!-- <input type="number" class="botao" style="width:50px"> -->
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm col-md justify-content-around p-2">
+                      <div class="card tamanho" style="width: 100%; height: 100%;">
+                          <a href="filme17.html"><img src="spider2.jpg" class="card-img-top" alt="..."></a>
+                          <div class="card-body" style="width: 100%; height: 100%;">
+                            <h5 class="card-title">Spider Man 2</h5>
+                            <p class="card-text">Depois de lutar ao lado dos Vingadores, chegou a hora do jovem Peter Parker voltar...</p>
+                           
+                             <!-- <input type="number" class="botao" style="width:50px"> -->
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm col-md justify-content-around p-2">
+                      <div class="card tamanho" style="width: 100%; height: 100%;">
+                          <a href="filme18.html"><img src="spider 3.jpg" class="card-img-top" alt="..."></a>
+                          <div class="card-body" style="width: 100%; height: 100%;">
+                            <h5 class="card-title">Spider Man 3</h5>
+                            <p class="card-text">Peter Parker está tentando saber mais sobre sua origem. Ele encontra uma pasta que pertenceu...</p>
+                          
+                             <!-- <input type="number" class="botao" style="width:50px"> -->
+                          </div>
+                        </div>
+                    </div>
+                    <!-- <div class="row">
+                      <div class="col-2 btn btn-primary offset-10 p-2 mt-3 compra">
+                        <button type="submit" class="btn btn primary">alugar</button>
+                      </div>
+                    </div> -->
+          </div>
+      </div>
+  
+  
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+<script src="carrinho.js"></script>
+<script src="cronometro.js"></script>
+</html>

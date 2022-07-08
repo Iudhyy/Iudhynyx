@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bolinha.css">
+    <script src="carrinho.js"></script>
+</head>
+<body onload="getCart()">
+    <div class="container">
+        <div class="row text-center">
+            <div class="row-12 form-control p-3 linha back" >
+                <a href="loc.html">
+                  <h1>Iudhynyx</h1>
+                  <h5 id="counterarea"></h5>
+                </a>
+              </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 mt-4">
+              <div class="card">
+                <div class="card-body">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="apagar" value="option1" onclick="getCart();if(document.getElementById('totalCarrinho').disabled==true)
+                  {
+                    document.getElementById('totalCarrinho').disabled=true;
+                    document.getElementById('parcela').disabled=true;
+                    document.getElementById('pagamento2').disabled=false
+                  }">
+                  <label class="form-check-label" for="inlineRadio1">Pagamento a vista</label>                 
+                  <a href="#" class="btn btn-outline-success p-2 m-3" id="">pagar</a>
+                  <select class="form-select" aria-label="Default select example" id="pagamento2">
+                    <option selected>Formas de Pagamento</option>
+                    <option value="1">Pix</option>
+                    <option value="2">Cartao de Crédito</option>
+                    <option value="3">Cartão de Débito</option>
+                  </select>
+                    <input type="text" id="totalCarrinho" class="form-control mt-3" disabled>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 mt-4">
+              <div class="card">
+                <div class="card-body">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="card1" value="option2" onclick="if(document.getElementById('card').
+                  disabled==true){document.getElementById('pagamento2').disabled=true;document.getElementById('parcela').disabled=false;document.
+                  getElementById('totalCarrinho').value=''}">
+                  <label class="form-check-label" for="inlineRadio1" aria-disabled="">Pagamento parcelado</label>                 
+                  <a href="#" class="btn btn-outline-success p-1 m-3">pagar</a>  
+                  <select class="form-select mb-4" aria-label="Default select example" id="parcela">
+                    <option selected>quantidades de parcela</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                    <input type="text" class="form-control" id="card" disabled>
+                </div>
+              </div>
+            </div> 
+          </div>
+          </div>   
+
+   
+</body>
+<script src="cronometro.js"></script>
+</html>
